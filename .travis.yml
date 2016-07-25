@@ -3,4 +3,11 @@ php:
   - '5.5.9'
   - '5.6'
   - '7.0'
-script: phpunit
+  - hhvm
+install:
+  - composer install --no-interaction
+  - php artisan migrate
+before_script:
+  - cp .env.travis .env
+script:
+	- phpunit
