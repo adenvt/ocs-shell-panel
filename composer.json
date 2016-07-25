@@ -1,8 +1,8 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
-    "license": "MIT",
+    "name": "adenvt/OCS-Shell-Panel",
+    "description": "Web for Selling SSH & VPN Accounts",
+    "keywords": ["cms", "web", "ocs", "ocspanel"],
+    "license": "GPL-3.0",
     "type": "project",
     "require": {
         "php": ">=5.5.9",
